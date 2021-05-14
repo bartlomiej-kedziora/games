@@ -76,13 +76,13 @@ def draw():
         screen.draw.text(
             "Koniec gry",
             center=(screen.width / 2, screen.height / 2),
-            color=red,
+            color="red",
             fontsize=60
         )
         screen.draw.text(
             "Wcisnij spacje aby zagrac jeszcze raz",
             center=(screen.width / 2, screen.height - 200),
-            color=red,
+            color="red",
             fontsize=30
         )
 
